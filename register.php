@@ -12,7 +12,7 @@
 			<label for="email">Email:</label>
 			<input id="email" type="text">
 
-			<label for="track">Track:</label>
+			<label for="track">Track(Web,Cyber,Data):</label>
 			<input id="track" type="text">
 			
 			<label for="shirt">Shirt:</label>
