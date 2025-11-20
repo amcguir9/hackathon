@@ -5,18 +5,21 @@
 	</head>
 	<body>
 		<h1>Mini-Hackathon 2025 Registration Form</h1>
-		<form>
+		<form method="POST" action="submit.php">
 			<label for="name">Name:</label>
 			<input id="name" type="text">
 
 			<label for="email">Email:</label>
 			<input id="email" type="text">
 
-			<label for="student-id">Student ID:</label>
-			<input id="student-id" type="text">
+			<label for="track">Track:</label>
+			<input id="track" type="text">
 			
-			<label for="review">Ask any questions you might have! We will get back to you asap.</label>
-			<textarea id="review" rows="10"></textarea>
+			<label for="shirt">Shirt:</label>
+			<input id="shirt" type="text">
+
+			<label for="laptop">Need a laptop?</label>
+			<input id="laptop" type="checkbox">
 
 			<a href="submit.php"><button type="button" id="submit-btn">Submit</button></a>
 	</form>
