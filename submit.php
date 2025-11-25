@@ -9,7 +9,7 @@ setcookie("name", $name, time() + 60*60*24*7); // 7 days
 setcookie("track", $track, time() + 60*60*24*7);
 
 $line = $name . "," . $email . "," . $track . "," . $shirt . "," . $laptop . "\n";
-​
+
 $file = fopen("registrations.txt", "a");
 fwrite($file, $line);
 fclose($file);
